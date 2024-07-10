@@ -4,17 +4,16 @@
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: Azeret Mono;
 }
 
+body {}
+
 /* <!-- banner-container  styles starts here  --> */
 .banner-container {
-  border: 2px solid tomato;
-  width: 1300px;
-  height: 652px;
+  /* border: 2px solid tomato; */
+  width: 946px;
+  height: 1235px;
   margin: 0 auto;
   margin-top: 20px;
   background-image: url('../assets/Hero-bg.png');
@@ -47,7 +46,7 @@ body {
   padding: 30px 100px;
 }
 
-.banner-button{
+.banner-button {
   background-color: #110700;
   font-size: 20px;
   font-weight: bold;
@@ -57,3 +56,125 @@ body {
   border: none;
   margin-top: 20px;
 }
+
+/* development-container styles start here */
+.all-development {
+  /* border: 2px solid tomato; */
+  width: 946px;
+  height: 1000px;
+  margin: 0 auto;
+
+}
+
+.development-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.para {
+  padding: 15px 55px;
+}
+
+.first-development {
+  /* border: 2px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 33%;
+  align-items: center;
+}
+
+.first-development p {
+  padding: 20px;
+
+}
+
+
+.i-will-do {
+  padding: 20px;
+
+}
+
+.learn-more {
+  text-decoration: none;
+  border: 2px solid black;
+  color: tomato;
+  background-color: white;
+  margin-left: 20px;
+  padding: 5px;
+
+}
+
+.first-right {
+  height: 100%;
+}
+
+.i-will-do p {
+  padding: 55px;
+  /* margin-bottom: 110px; */
+}
+
+/* first-development ends here */
+
+/* second-development starts here  */
+.second-development {
+  /* border: 2px solid tomato; */
+  height: 32%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.I-will-help {
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.second-development p {
+  padding: 20px;
+
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  border-color: white;
+  border: 2px solid black;
+  margin-top: 10px;
+  color: tomato;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.third-development {
+  /* border: 2px solid rgb(45, 240, 6); */
+  height: 33%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.third-development a{
+  text-decoration: none;
+  color: black;
+  border-color: white;
+  border: 2px solid black;
+  margin-top: 10px;
+  color: tomato;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+}
+.third-development h3, p{
+  margin-bottom: 5px;
+  padding: 20px;
+}
+/* development-container finish */
