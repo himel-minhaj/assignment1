@@ -261,7 +261,7 @@ p {
 .java-script {
   width: 33%;
   height: 330px;
-  border: 2px solid rgb(111, 71, 255);
+  /* border: 2px solid rgb(111, 71, 255); */
   padding: 15px;
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
