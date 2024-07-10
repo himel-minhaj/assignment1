@@ -7,15 +7,16 @@
   font-family: Azeret Mono;
 }
 
-body {}
+
 
 /* <!-- banner-container  styles starts here  --> */
 .banner-container {
   /* border: 2px solid tomato; */
   width: 946px;
-  height: 1235px;
+  height: 700px;
   margin: 0 auto;
   margin-top: 20px;
+
   background-image: url('../assets/Hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -46,15 +47,18 @@ body {}
   padding: 30px 100px;
 }
 
-.banner-button {
+.banner-button a{
   background-color: #110700;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  /* color: white; */
   padding: 19px 35px;
   border-radius: 5px;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
+  color: tomato;
+  text-decoration: none;
 }
 
 /* development-container styles start here */
@@ -149,6 +153,7 @@ body {}
   color: tomato;
   margin-left: 20px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .third-development {
@@ -186,7 +191,7 @@ p {
 .inspiration-container {
   height: 777px;
   width: 1170px;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -208,9 +213,9 @@ p {
 
 /* skills-container start here */
 .skills-container {
-  height: 463px;
+  height: 563px;
   width: 1140px;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -218,6 +223,10 @@ p {
   align-items: center;
   margin-top: 20px;
 
+
+}
+.Target{
+  text-align: center;
 }
 
 .skill {
@@ -232,17 +241,18 @@ p {
 .html {
   width: 33%;
   height: 330px;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   padding: 15px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
+  color: black;
 
 }
 
 .css {
   width: 33%;
   height: 330px;
-  border: 2px solid rgb(245, 44, 9);
+  /* border: 2px solid rgb(245, 44, 9); */
   padding: 15px;
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
@@ -259,9 +269,9 @@ p {
 Support-containe style start here{}
 
 .Support-container{
-  height: 700px;
+  height: 286px;
   width: 1044px; 
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -269,5 +279,70 @@ Support-containe style start here{}
   align-items: center;
   margin-top: 20px;
   background-image: url('../assets/handshake.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
+}
+.heading{
+  color: white;
+}
+.heading h2, p {
+  color: rgb(236, 12, 12);
+  text-align: center;
+}
+
+.btn{
+
+  position: relative;
+  
+  
+}
+input , button{
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+/* footer start  */
+footer{
+
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  height: 100px;
+  padding: 30px 48px 20px 0px;
+}
+
+.footer-container p{
+  color: rgb(241, 79, 3);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 10px 0;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  padding: 0 10px;
+  list-style: none;
+  font-family: Azeret Mono;
+}
+footer ul li a{
+  text-decoration: none;
+}
+footer ul li a img:hover{
+  width: 40px;
+  height: 40px;
+  transition: 1s al ease;
 }
