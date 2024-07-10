@@ -89,6 +89,7 @@
   padding: 10px;
   height: 33%;
   align-items: center;
+  margin-left: 1px;
 }
 
 .first-development p {
@@ -246,6 +247,7 @@ p {
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   color: black;
+  display: inline;
 
 }
 
@@ -286,6 +288,7 @@ Support-containe style start here{}
   background-blend-mode: overlay;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 16px;
 
 }
 .heading{
@@ -326,9 +329,10 @@ footer{
   color: rgb(241, 79, 3);
 font-family: Azeret Mono;
 font-size: 20px;
-font-weight: 600;
+font-weight: 600px;
 line-height: 23px;
 padding: 10px 0;
+
 }
 footer ul{
   display: flex;
