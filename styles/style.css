@@ -162,7 +162,7 @@ body {}
 
 }
 
-.third-development a{
+.third-development a {
   text-decoration: none;
   color: black;
   border-color: white;
@@ -173,8 +173,101 @@ body {}
   margin-top: 20px;
   padding: 5px;
 }
-.third-development h3, p{
+
+.third-development h3,
+p {
   margin-bottom: 5px;
   padding: 20px;
 }
+
 /* development-container finish */
+
+/* .Inspiration-container start here  */
+.inspiration-container {
+  height: 777px;
+  width: 1170px;
+  border: 2px solid tomato;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inspiration-container h2 {
+  text-align: center;
+
+}
+
+.inspiration-container p {
+  margin-left: 30px;
+}
+
+/* .Inspiration-container ends here  */
+
+/* skills-container start here */
+.skills-container {
+  height: 463px;
+  width: 1140px;
+  border: 2px solid tomato;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+  gap: 20px;
+}
+
+.html {
+  width: 33%;
+  height: 330px;
+  border: 2px solid tomato;
+  padding: 15px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+
+}
+
+.css {
+  width: 33%;
+  height: 330px;
+  border: 2px solid rgb(245, 44, 9);
+  padding: 15px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.java-script {
+  width: 33%;
+  height: 330px;
+  border: 2px solid rgb(111, 71, 255);
+  padding: 15px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+Support-containe style start here{}
+
+.Support-container{
+  height: 700px;
+  width: 1044px; 
+  border: 2px solid tomato;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-image: url('../assets/handshake.jpg');
+
+}
